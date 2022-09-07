@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  background-color: burlywood;
+}
+
+.nav{
+  background-color: black;
+  color:white;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0 1rem;
+  gap:2rem;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height:100%;
+  color: inherit;
+}
+
+.nav ul{
+  list-style: none;
+  display: flex;
+  gap:6rem;
+  padding-right: 30%;
+}
+
+.site-title{
+  font-size: x-large;
+  margin-top: 6px;
+}
+
+.nav li:active{
+  background-color: blue;
+  
+}
+
+.nav li:hover{
+  background-color:blue;
+}
+
+.new-inventory-form{
+  padding: 1%;
+  margin-left: 10%;
+}
+
+.category{
+  width: 20%;
+  
+}
+
+.add-inventory{
+  margin-left: 3%;
+}
+
+.name{
+  margin:2%;
+  width:2%;
+}
+
+.inventories{
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: grey solid 0.1rem;
+  padding: 0 1rem;
+  padding-bottom: 0.1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  width:60%;
+  margin-left: 14%;
+  gap:20%
+
+}
+
+.delete{
+  height: 2%;
+  background-color:red;
+  margin-top: 2%;
+  
+
+}
+
+.price{
+  height:2%;
+  
+}
+
+.categoryelement{
+  margin:2%;
+  
+}
+
+.about{
+  margin-top: 4%;
+  margin-left: 12%;
+  font-size: larger;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.home{
+  margin-top: 4%;
+  margin-left: 12%;
+  font-size: larger;
+  font-weight: 800;
+  font-style: italic;
+}
+
