@@ -4,5 +4,6 @@ class CreateRoles < ActiveRecord::Migration[6.1]
       t.string :task
       t.integer :employee_id
       t.integer :product_id
+    end
   end
 end
