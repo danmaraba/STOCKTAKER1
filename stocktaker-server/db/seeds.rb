@@ -12,9 +12,9 @@ maize_cereals = Product.create(name: "Maize_cereals",price: 20_000,category: "st
 
 puts "🌱 Seeding roles..."
 
-update_accounts_register = Role.create(task: "Update_Accounts_Register",employee_id: 1,product_id: 2)
-update_IT_register = Role.create(task: "Update_IT_Register",employee_id: 2,product_id: 1)
-update_stores_register = Role.create(task: "Update_Stores_Register",employee_id: 3,product_id: 3)
+update_accounts_register = Role.create(task: "Update_Accounts_Register",employee: dan_kipruto,product: receipt_book)
+update_IT_register = Role.create(task: "Update_IT_Register",employee: maurine_odhiambo,product: hp_laptop)
+update_stores_register = Role.create(task: "Update_Stores_Register",employee: steve_mwangi,product: maize_cereals)
 
 
 
