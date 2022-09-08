@@ -7,14 +7,14 @@ class ApplicationController < Sinatra::Base
         products.to_json
     end
 
-    # post '/products' do 
-    #     product = Product.create(
-    #         name: params[:name],
-    #         price: params[:price],
-    #         category: params[:category]
-    #     )
-    #     product.to_json
-    # end
+    post '/products' do 
+        product = Product.create(
+            name: params[:name],
+            price: params[:price],
+            category: params[:category]
+        )
+        product.to_json
+    end
 
     # patch '/products/:id' do
     #     product = Product.find(params[:id]);
