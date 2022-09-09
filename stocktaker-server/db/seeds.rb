@@ -6,7 +6,7 @@ steve_mwangi = Employee.create(name: "Steve",gender: "Male",department: "Store")
 
 puts "🌱 Seeding products..."
 
-hp_laptop = Product.create(name: "HP",price: 40_000,category: "IT")
+hp_laptop = Product.create(name: "HP_Laptop",price: 40_000,category: "IT")
 receipt_book = Product.create(name: "Receipt_Book",price: 5_000,category: "accounts")
 maize_cereals = Product.create(name: "Maize_cereals",price: 20_000,category: "store")
 
