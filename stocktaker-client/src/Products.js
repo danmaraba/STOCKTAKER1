@@ -9,7 +9,7 @@ function Products() {
   
 
   useEffect(()=>{
-    fetch('https://nameless-retreat-54870.herokuapp.com/inventories')
+    fetch('http://localhost:9292/products')
     .then(res=>res.json())
     .then(data=>setInventories(data))
   },[]);

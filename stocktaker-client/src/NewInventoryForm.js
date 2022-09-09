@@ -14,7 +14,7 @@ function NewInventoryForm({onAddInventory,inventories}) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch ('https://nameless-retreat-54870.herokuapp.com/inventories',{
+    fetch ('http://localhost:9292/products',{
     method: "POST",
     headers: {
       "Content-Type" : "application/json"

@@ -4,7 +4,7 @@ function Inventories({inventory,onDeleteInventory}) {
  console.log(inventory)
 
  function handleDeleteonClick() {
-  fetch(`https://nameless-retreat-54870.herokuapp.com/inventories/${id}`,{
+  fetch(`http://localhost:9292/products/${id}`,{
     method:"DELETE",
   })
   .then((response)=>response.json())
