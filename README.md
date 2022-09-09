@@ -11,7 +11,7 @@ An application meant to aid business owners and employees undertake stock-count 
 CTRL+ALT+T to open the terminal
 
 
-<!-- 
+
 cd stocktaker
 Use vscode to open it
 
@@ -28,7 +28,7 @@ Heroku
 Netlify
 Github
 
-## Support
+<!-- ## Support
 You can reach out to me via my email: danielkmaraba@gmail.com
 
 ## License
