@@ -52,7 +52,7 @@ function NewInventoryForm({onAddInventory,inventories}) {
         <input  placeholder='Price' name="price" onChange={handleChange} value={formData.price}/>
       </label>
       <label className='categoryelement'>
-         <input  placeholder='Category' name="category" onChange={handleChange} value={formData.category}/>
+         <input  placeholder='Department' name="category" onChange={handleChange} value={formData.category}/>
       </label>
       <label>
       {/* <input  placeholder='Search...' type="text" /> onChange={(e)=>{  setSearchTerm(e.target.value)}} */}
