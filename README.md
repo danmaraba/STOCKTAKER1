@@ -10,12 +10,14 @@ An application meant to aid business owners and employees undertake stock-count 
 ## Project Set Up Instructions
 CTRL+ALT+T to open the terminal
 
-
-
 cd stocktaker
 Use vscode to open it
 
 ## live link
+https://the-stocktaker-danmaraba-site.netlify.app/Products
+
+## Backend link
+https://stocktaker-backend.herokuapp.com/products
 
 
 ## Technologies Used
